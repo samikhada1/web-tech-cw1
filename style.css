@@ -116,3 +116,40 @@ nav ul li a {
     color:#f5554d;
     text-shadow:2px 2px 100px #60519C;
 }
+/* -------------------------------About section------------------------------------*/
+.part-1{
+    height:60vh;
+    width:100%;
+    display:flex;
+    padding-top:120px;
+    justify-content: space-around;
+    background-color:#7d6fb6;
+}
+.img-1{
+    width:45rem;
+    height:30rem;
+    background: rgba(255,255,255,.4);
+    box-shadow: 0 15px 20px rgba(0,0,0,.2);
+}
+.abou-text-1 {
+    width:35rem;
+    height:20rem;
+    background: rgba(255,255,255,.4);
+    box-shadow: 0 15px 20px rgba(0,0,0,.2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding:50px;
+    margin:20px;
+}
+.abou-text-1 p {
+    margin:20px;
+    font-size:20px;
+    letter-spacing: 1px;
+}
+.abou-text-1 h1 {
+    margin:20px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
