@@ -14,7 +14,7 @@ nav {
     position: fixed;
     width:100%;
     height: 8vh;
-    background-color:red;
+    background-color:#6B5F9E;
     letter-spacing: 5px;
 }
 nav h1 {
@@ -24,6 +24,7 @@ nav h1 {
 }
 nav a {
     text-decoration: none;
+    color:#140D34;
 }
 nav ul li a {
     padding:30px;
@@ -42,7 +43,7 @@ nav ul li a {
 .burger div {
     width: 30px;
     height:3px;
-    background-color: white;
+    background-color: #140D34;
     margin:7px;
 }
 @media screen and (max-width:1024px) {
@@ -59,7 +60,7 @@ nav ul li a {
         right:0px;
         height:92vh;
         top:8vh;
-        background-color:red;
+        background-color:#6B5F9E;
         display:flex;
         flex-direction:column;
         align-items: center;
