@@ -151,7 +151,7 @@ nav ul li a {
     flex-direction: column;
     justify-content: center;
     padding:50px;
-    margin:20px;
+    margin:10px;
 }
 .topics p {
     margin:20px;
@@ -159,7 +159,39 @@ nav ul li a {
     letter-spacing: 1px;
 }
 .topics h1 {
-    margin:20px;
+    margin:40px;
     text-transform: capitalize;
     letter-spacing: 1px;
+}
+.gallery{
+    padding-top:60px;
+    height:100vh;
+    background-color: #7d6fb6;
+    max-width: 1920px;
+    flex-wrap: wrap;
+    display:flex;
+    flex-direction: center;  
+    justify-content: center;
+}
+.gallery img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    object-position: bottom;
+}
+.img-gallery{
+    padding-left: 100px;
+    margin:10px;
+    display: flex;
+    float: left;  
+    display: block;
+}
+.gallery img:hover {
+    cursor: pointer;
+    opacity:0.5;
+    transition: 0.3s;
+}
+.gallery .title {
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top:20px;
 }
