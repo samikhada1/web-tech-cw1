@@ -7,6 +7,16 @@ body {
     flex-direction:column;  
     background-attachment: fixed;
 }
+
+
+
+
+
+
+/*--------------          responsive nav bar            ---------------*/
+
+
+
 nav {
     display:flex;
     justify-content: space-around;
@@ -76,4 +86,33 @@ nav ul li a {
 }
 .nav-active {
     transform:translateX(0%);
+}
+
+/*------------------------Main body (all sections)------------------------*/
+
+.main-section {
+    height:100vh;
+    background-image:url(https://images.squarespace-cdn.com/content/v1/5e82ece6a24faf1f39f4d723/1588885368567-R0YPHNUV75YMENNK6UBJ/GYM-BG-Vanalinn-1.jpg?format=2500w);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: left;
+}
+.main-section-text{
+    display:flex;
+    align-items: center;
+    padding:100px;
+    width:40rem;
+    height:30rem;
+}
+.main-section h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:4rem;
+    padding:30px;
+    display:flex;
+    letter-spacing: 0.4rem;
+    color:#f5554d;
+    text-shadow:2px 2px 100px #60519C;
 }
